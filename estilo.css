@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+body{
+    margin: 0px;
+    background-color:rgb(247, 244, 244);
+}
+header{
+    color: black;
+    height: 85px;
+    width: 100%;
+    z-index: 10;
+    background-color: #F5F5F5;
+    position: fixed;
+}
+#logo{
+    height: 90px;
+    width: 150px;
+    position: absolute;
+    margin-right: 5px;
+}
+#plogo{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 5%;
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none; 
+}
+.listamenu{
+    float:left;
+    padding: 10 10 10 10;
+    top:0px;
+}
+#capa{
+    background: url(imagens/homem\ mulher\ mesa.jpeg);
+    height: 540px;
+    width: 100%;
+    text-align: center;
+    background-size: 100% 540px;
+    box-sizing: border-box;
+}
+h1{
+    padding-top: 100px;
+    font-size: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 15px   
+}
+a{
+    text-decoration: none;
+    border:cornflowerblue solid 2px; 
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+}
+a:hover{
+    background-color: lightblue;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+h2{
+    font-size:21px;
+    font-family:'Nunito Sans', sans-serif;
+    margin:0 200px 30px;
+    line-height: 2;
+    margin-bottom: 160px;
+}
+p{
+    line-height:2;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    padding-left: 46%;
+}
+.iconcm{
+    width: 85px;
+    height:14%;
+    padding-left:46%;
+}
+#intro,#construcaosocial,#mudancas,#comoajudar,#boasnoticias{
+    margin:20px 55px;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 2px 2px rgb(208, 211, 208);
+    background-color: rgba(245, 240, 240, 0.897); 
+    border-radius: 2px;
+}
+.porcen{
+    margin:10px 27px;
+    background-color: white; 
+    border-radius:2px;
+    font-family:'Nunito Sans', sans-serif;
+    font-size:19;
+    float: right;
+    padding: 10px 25px;
+    position: relative;
+    left:0%; right:5px; top: 12px;
+    width: 11%;
+    height: 85%;
+    text-align: center;
+}
+.porcen2{
+    padding-top: 30px;
+}
+#titulointro,#tituloconstrucaosocial,#titulomudancas,#subtitulomudancas,#titulocomoajudar,#tituloboasnoticias,#titulosobremim{
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size: 30; 
+}
+#pintro,#pconstrucaosocial,#listamudancas,#pmudancas,#pcomoajudarum,#pcomoajudardois,#pboasnoticiasum,#pboasnoticiasdois,#psobremim,#psobremimicon{
+    font-family:'Nunito Sans', sans-serif;
+    font-size:24;
+}
+.listamenu{
+    font-family:'Nunito Sans', sans-serif;
+    font-size:17px;
+}
+#subtitulomudancas{
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size:26;
+}
+#listamudancas{
+    line-height:2;
+}
+#traducaoimg{
+    text-align: center;
+    font-family:'Nunito Sans', sans-serif;
+    font-size:15px;
+}
+#frase{
+    text-align-last: center;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size:27;
+    padding:30px 30px;
+    margin: 20px 40px;
+    letter-spacing: 1px;
+}
+section{
+    float: left;
+}
+.img{
+    width:50%;
+    height:50%;
+}
+#imglateral{
+    width: 65%;
+    height: 90%;
+}
+.coluna,.link{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+#pmudancas{
+    float: left;
+}
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+    font-size: 25px;
+}
+.centralizadoporcen{
+    text-align: center;
+    font-size: 19.4px;
+}
+#imgcentralizado{
+    text-align: center;
+    border-radius: 2px;
+}
+#imgcentralizadof{
+    text-align: center;
+    height: 130%;
+    width: 100%;
+    padding-bottom: 5px;
+}
+#float{
+    float: right;
+    padding-left: 5px;
+}
+footer{
+    background-color: lightpink;
+    float: right;
+    width: 100%;
+}
+.iconfooterum{
+    width:40px;
+    height:14%;
+    padding-left:50px;
+    padding-top: 10px;
+    position: absolute;
+    float: left;   
+}
+.iconfooterdois,.iconfootertres{
+    width:40px;
+    height:14%;
+    padding-left:50px;
+    margin: none;
+    position: absolute;
+    float: left;   
+}
+#psobremim{
+    padding-left: 105px;
+}
+#psobremimicon{
+    padding-left: 105px;
+    padding-top: 1px;
+}
+#referenciafrase{
+    font-family: 'Nunito Sans', sans-serif; 
+    float: right;
+    font-size:15px;
+}
+#fotof{
+    width: 23%;
+    height: 60%;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 1090px){
+    .listamenu{
+        visibility: hidden;
+    }
+    h1{
+        margin-bottom: 40;
+    }
+}
+@media screen and (max-width: 1011px) {
+    .listamenu{
+        visibility: hidden;
+    }
+    h1{
+        margin-bottom: 32;
+    }
+    h2{
+        margin:0;
+        margin-bottom: 30;
+    }
+    .coluna{
+        display:block;
+        width: 100%;
+        padding: 5%;
+    }
+    .porcen{
+        display:block;
+        float: left;
+        width: 50%;
+        height: 43%;
+        padding-left:12%;
+        padding-right: 12%;
+        margin-left: 15%;
+        border-right:12%;
+        position:static;
+    }
+    .icon,.iconcm{
+        padding-left: 46%;
+        text-align: center;
+    }
+    footer{
+        display: block;
+        padding-left: 20%;
+    }
+    #psobremim{
+        display: block;
+        text-align:center;
+        float: none;
+        padding: 2%;
+    }  
+    .iconfooterum,.iconfooterdois,.iconfootertres{
+        display: inline;
+        padding: none;
+    }
+    #intro,#construcaosocial,#mudancas,#comoajudar,#boasnoticias{
+        display: block;
+        margin: 0%;
+        margin-bottom: 4%;
+    }
+    #intro,#construcaosocial,#mudancas,#comoajudar,#boasnoticias{
+        margin:10px 20px;
+        padding: 5px 10px;
+        box-shadow: 0px 0px 2px 2px rgb(208, 211, 208);
+        background-color: rgba(245, 240, 240, 0.897); 
+        border-radius: 2px;
+    }
+    #pintro{
+    padding-left: 1%;
+    }
+    #video{
+        padding-left: 1%;
+        width: 90%;
+    }
+    #logo{
+        text-align: center;
+        padding-left: 46%;
+        margin: 0%;
+    }
+    #frase{
+        text-align:center;
+    }
+    #psobremimicon{
+        padding-left: 22%;
+        padding-top: 2%;
+    }
+    .img{
+        width: 50%;
+        height: 35%;
+    }
+    #video{
+        padding-left: 0%;
+    }
+    #fotof{
+        height: 50%;
+        width: 30%;
+    }
+    #psobemimicon{
+        padding: 10%;
+    }
+}
+@media screen and (max-width: 600px){
+    #imgcentralizadof{
+        object-fit: center;
+        height: 100%;
+        width: 150%;
+    }
+    .porcen{
+        height: 75%;
+    }
+    #logo{
+        text-align: center;
+        padding-left: 36%;
+        margin: 0%;
+    }
+    .icon,.iconcm{
+        padding-left: 36%;
+        text-align: center;
+        display: block;
+    }
+    #iconfooterum,#iconfooterdois,#iconfootertres{
+        visibility: hidden;
+    }
+    #iconfooterum{
+        padding-top: none;
+    }
+}
